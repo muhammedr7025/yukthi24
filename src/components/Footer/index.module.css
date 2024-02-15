@@ -1,0 +1,117 @@
+.footerWrapper {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--background);
+  color: var(--foreground);
+  height: 15rem;
+  margin-top: 3rem;
+  width: 100%;
+}
+
+.footerLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 30rem;
+  border: 1px solid var(--foreground);
+}
+.linkText {
+  font-family: var(--text-heading);
+  font-style: italic;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.linkText span:first-child {
+  font-size: 1rem;
+}
+.linkText span:last-child {
+  font-size: 4rem;
+}
+
+.footerContent {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 20rem;
+  gap: 3rem;
+}
+
+.footerContent .footerLinks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.2rem;
+  font-style: italic;
+  width: 100%;
+  border: 1px solid var(--foreground);
+}
+
+.footerContent .footerLinks b {
+  font-size: 3rem;
+  font-weight: 800;
+  align-items: center;
+  font-family: var(--text-heading);
+  justify-content: center;
+  margin-bottom: 0.4rem;
+}
+
+.footerContent .footerLinks a {
+  font-size: 1.3rem;
+  font-weight: 200;
+  align-items: start;
+  justify-content: start;
+  margin-bottom: 0.4rem;
+  text-decoration: none;
+  color: var(--foreground);
+}
+
+.footerSocial {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  font-size: 3rem;
+}
+
+a {
+  color: var(--foreground);
+}
+
+.footerSocial .footerLinks {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  gap: 2rem;
+  border: 1px solid var(--foreground);
+}
+
+.footerSocial .footerName {
+  display: flex;
+  font-style: italic;
+  align-items: center;
+  font-weight: 0.5rem;
+  padding: 1rem;
+  justify-content: center;
+  font-family: var(--text-heading);
+  border: 1px solid var(--foreground);
+}
+
+@media screen and (max-width: 600px) {
+  .footerWrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .footerContent {
+    display: flex;
+    width: 100%;
+  }
+  .footerLink {
+    width: 100%;
+  }
+  .footerName {
+    padding-top: 1.5rem;
+  }
+}

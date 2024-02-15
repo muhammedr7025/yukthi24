@@ -1,0 +1,57 @@
+.cardContainer {
+   width: 12rem;
+   background-color: white;
+}
+
+.imageContainer {
+    width: 100%;
+	height: 270px; 
+	overflow: hidden;
+}
+
+.imageContainer img {
+	object-fit: cover;
+    width: 100%; 
+    height: 100%; 
+}
+
+.contentContainer {
+    text-align: center; 
+    margin-top: 5px;
+    color: var(--background);
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 6px;
+}
+
+.content {
+    margin-bottom: 5px; 
+    display: flex;
+    flex-direction: column;
+}
+
+.content span:first-child{
+    text-transform: uppercase;
+}
+
+.content span:last-child{
+	text-transform: uppercase;
+	font-size: .7rem;
+    font-weight: 350;
+}
+
+.iconContainer button {
+	padding: .1rem;
+	background-color: var(--background);
+    width: 85%;
+	border: 1px solid var(--background);
+	color: var(--foreground);
+	font-family: var(--text-body);
+	border-radius:0 var(--border-radius) 0 var(--border-radius) ;
+	font-size: .8em;
+}
+
+.iconContainer button:hover {
+	background-color: var(--foreground);
+	color: var(--background);
+}

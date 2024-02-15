@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&family=Karantina&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&display=swap");
+
+/* font-family: 'Josefin Sans', sans-serif; */
+/* font-family: 'Karantina', system-ui; */
+/* font-family: 'Inter', sans-serif; */
+/* font-family: 'Chakra Petch', sans-serif; */
+
+:root {
+  /* --primary: #ffffff; */
+  --primary: #cafa19;
+
+  --secondary: #d64a13;
+  --background: #121212;
+  --foreground: #ffffff;
+  --accent: #19181885;
+  --muted: #7e7e7ea9;
+  --border-radius: 8px;
+  --border: rgba(52, 52, 52, 0.758);
+  --border-light: rgba(255, 255, 255, 0.2);
+  --text-heading: "Karantina", system-ui;
+  --text-body: "Josefin Sans", sans-serif;
+  --danger: #c33333;
+  --inter: "Inter", sans-serif;
+  --chakra: "Chakra Petch", sans-serif;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: var(--text-body);
+  background-color: var(--background);
+  color: var(--foreground);
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--border-light);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--accent);
+}

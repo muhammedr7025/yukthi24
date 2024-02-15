@@ -1,0 +1,23 @@
+.eventsWrapper {
+	min-height: calc(100vh - 14rem);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.filters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: end;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.eventContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
+	scale: 0.9;
+    padding: 1.5rem;
+}

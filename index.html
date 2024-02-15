@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>WEBSYNC</title>
+    </head>
+    <body>
+        <!-- <div id="cursor"></div>
+        <div id="stalker"></div> -->
+        <div id="root"></div>
+        <script type="module" src="/src/main.tsx"></script>
+        <!-- <script>
+            const cursor = document.getElementById("cursor");
+            const stalker = document.getElementById("stalker");
+            document.addEventListener("mousemove", (event) => {
+                const x = event.clientX;
+                const y = event.clientY;
+                cursor.style.transform = `translate(${x}px, ${y}px)`;
+                stalker.style.transform = `translate(${x}px, ${y}px)`;
+            });
+        </script> -->
+		<!-- <style>
+            * {
+                cursor: none !important;
+            }
+
+            #cursor {
+                position: fixed;
+                width: 6px;
+                height: 6px;
+                background-color: #060606;
+				border: 2px solid #ffffff;
+                border-radius: 100%;
+                pointer-events: none;
+                z-index: 1000;
+                transition: transform ease-out 10ms;
+            }
+
+            #stalker {
+                position: fixed;
+                margin-top: -8px;
+                margin-left: -8px;
+                width: 25px;
+                height: 25px;
+                background-color: #fff;
+				mix-blend-mode: difference;
+                opacity: 60%;
+                border-radius: 100%;
+                pointer-events: none;
+                transition: transform ease-out 200ms;
+                z-index: 999;
+            }
+        </style> -->
+    </body>
+</html>

@@ -1,0 +1,44 @@
+.trigger {
+	cursor: pointer;
+	background-color: transparent;
+	border: none;
+	color: var(--primary);
+	scale: 1.1;
+}
+
+.popoverContent {
+	padding: .5rem;
+	border-radius: var(--border-radius);
+	background-color: var(--background);
+	border: 2px solid var(--border-light);
+}
+
+.popoverContent div {
+	display: flex;
+	flex-direction: column;
+	font-family: monospace;
+}
+
+.popoverContent div .close span {
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	padding: .5rem;
+}
+
+.popoverContent div .close span:hover {
+	background-color: var(--border);
+	border-radius: var(--border-radius);
+}
+
+.popoverContent div hr {
+	width: 100%;
+	border: 1px solid var(--border-light);
+}
+
+.close {
+	background-color: transparent;
+	border: none;
+	color: var(--primary);
+	padding: 0;
+}
