@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import Button from "../../../components/Button";
-import Card from "../../../components/Card";
+// import Card from "../../../components/Card";
 import { ArrowBig } from "../../../utils/svgComponents";
 import styles from "../index.module.css";
 import { Link } from "react-router-dom";
@@ -22,7 +22,7 @@ const HomeEvents = () => {
     return (
         <div className={styles.eventsContainer}>
             <div className={styles.eventCardContainer}>
-                <div className={styles.eventCard}>
+                {/* <div className={styles.eventCard}>
                     <Card
                         name={"Hackathon"}
                         link={
@@ -48,7 +48,7 @@ const HomeEvents = () => {
                         }
                         url={"/hackathon"}
                     />
-                </div>
+                </div> */}
             </div>
             <div className={styles.moreEvents}>
                 <Link to="/events">
