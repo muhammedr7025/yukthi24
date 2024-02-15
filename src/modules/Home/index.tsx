@@ -34,10 +34,10 @@ const Home = () => {
                 <Header title="Events" />
                 <HomeEvents />
             </div>
-            <div className={styles.sponsersContainer}>
+            {/* <div className={styles.sponsersContainer}>
                 <AboutTitle title="SPONSERS" />
                 <Sponsers />
-            </div>
+            </div> */}
             {/* <div>
                 <AboutTitle title="About" />
                 <div className={styles.aboutWrapper}>
