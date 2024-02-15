@@ -6,8 +6,8 @@ import Countdown from "./components/Countdown";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import HomeEvents from "./components/HomeEvents";
-import AboutTitle from "./components/AboutTitle/AboutTitle";
-import Sponsers from "./components/Sponsers/Sponsers";
+// import AboutTitle from "./components/AboutTitle/AboutTitle";
+// import Sponsers from "./components/Sponsers/Sponsers";
 
 const Home = () => {
     const date = new Date("2024-03-15T12:00:00");
